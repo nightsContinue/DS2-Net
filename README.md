@@ -6,7 +6,7 @@ Dense Spatial Modulation &amp; Sparse Strip Propagation Network
 **DS2Net** is a traffic-sign detector designed for complex road scenes, where small signs, long imaging distances, occlusion, and cluttered backgrounds make reliable detection difficult. The paper has been accepted; formal publication details will be added after they are available.
 
 <p align="center">
-  <img src="截图/overall-architecture-DETR-like.png" alt="Overview of the DS2Net architecture" width="100%">
+  <img src="./截图/overall-architecture-DETR-like.png" alt="Overview of the DS2Net architecture" width="100%">
 </p>
 
 ## Highlights
