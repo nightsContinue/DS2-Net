@@ -18,7 +18,7 @@ Dense Spatial Modulation &amp; Sparse Strip Propagation Network
 
 ## Method
 
- DS<sup>2</sup>-Netvvvvvvvvvvvvvvvvvv uses a two-stage feature enhancement path:
+ DS<sup>2</sup>-Net uses a two-stage feature enhancement path:
 
 1. **Dense spatial modulation.** SAFM divides projected shallow features into a modulation branch and a skip branch. Multi-scale context produces spatially varying gains for the modulation branch, while the skip branch preserves fine local detail.
 2. **Sparse directional propagation.** DSAM applies horizontal and vertical strip aggregation with two receptive-field scales (K = 7 and K = 11). This efficiently emphasizes the directional structures that commonly characterize traffic signs.
