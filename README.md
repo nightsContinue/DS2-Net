@@ -29,23 +29,7 @@ The resulting detector retains a high-resolution prediction branch and applies D
 
 All results use the COCO evaluation protocol with `maxDets = 100`. `AP_s` denotes AP@[0.50:0.95] for small objects.
 
-### CCTSDB2021
 
-| Method | AP@[0.50:0.95] | AP@0.50 | AP@0.75 | AP_s |
-| :-- | --: | --: | --: | --: |
-| YOLOv11 | 0.519 | 0.815 | 0.609 | 0.485 |
-| YOLO-TS | 0.540 | **0.851** | 0.615 | 0.512 |
-| RT-DETR | 0.552 | 0.841 | 0.662 | 0.533 |
-| **DS2Net** | **0.558** | 0.837 | **0.676** | **0.545** |
-
-### TT100K
-
-| Method | AP@[0.50:0.95] | AP@0.50 | AP@0.75 | AP_s |
-| :-- | --: | --: | --: | --: |
-| YOLOv9-C | 0.653 | 0.852 | 0.771 | 0.510 |
-| YOLOv11 | 0.650 | 0.850 | 0.770 | 0.435 |
-| RT-DETR | 0.657 | 0.855 | 0.769 | 0.516 |
-| **DS2Net** | **0.710** | **0.912** | **0.841** | **0.571** |
 
 <p align="center">
   <img src="检测性能对比_紧凑版.png" alt="TT100K detection-performance comparison" width="82%">
