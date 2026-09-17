@@ -3,7 +3,7 @@
 Dense Spatial Modulation &amp; Sparse Strip Propagation Network
  **空间稠密调制与条带稀疏传播协同的交通标志检测方法**
 
-** DS<sup>2</sup>-Net** is a traffic-sign detector designed for complex road scenes, where small signs, long imaging distances, occlusion, and cluttered backgrounds make reliable detection difficult. The paper has been accepted; formal publication details will be added after they are available.
+ DS<sup>2</sup>-Net* is a traffic-sign detector designed for complex road scenes, where small signs, long imaging distances, occlusion, and cluttered backgrounds make reliable detection difficult. The paper has been accepted; formal publication details will be added after they are available.
 
 <p align="center">
   <img width="1324" height="956" alt="image" src="https://github.com/user-attachments/assets/ca06c299-17ae-488b-a932-53f063844d3d" alt="Overview of the DS2Net architecture" width="100%" />
@@ -18,7 +18,7 @@ Dense Spatial Modulation &amp; Sparse Strip Propagation Network
 
 ## Method
 
-DS2Net uses a two-stage feature enhancement path:
+ DS<sup>2</sup>-Netvvvvvvvvvvvvvvvvvv uses a two-stage feature enhancement path:
 
 1. **Dense spatial modulation.** SAFM divides projected shallow features into a modulation branch and a skip branch. Multi-scale context produces spatially varying gains for the modulation branch, while the skip branch preserves fine local detail.
 2. **Sparse directional propagation.** DSAM applies horizontal and vertical strip aggregation with two receptive-field scales (K = 7 and K = 11). This efficiently emphasizes the directional structures that commonly characterize traffic signs.
