@@ -1,4 +1,4 @@
-<img width="1324" height="956" alt="image" src="https://github.com/user-attachments/assets/3932e072-5268-463d-9020-5b5796144cbc" /># DS<sup>2</sup>-Net
+ DS<sup>2</sup>-Net
 
 Dense Spatial Modulation &amp; Sparse Strip Propagation Network
  **空间稠密调制与条带稀疏传播协同的交通标志检测方法**
